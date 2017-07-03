@@ -1,0 +1,7 @@
+mongoimport --db AirlineProfile --collection airlineProfileRS --file D:\Software\mongodbdump\BA-airlineProfileRS.json
+# Linux: mongoimport --db AirlineProfile --collection airlineProfileRS --file ~/wars/BA-airlineProfileRS.json --jsonArray
+
+mongoimport --db AirlineProfile --collection airlineProfileRS --file D:\Software\mongodbdump\EK-airlineProfileRS.json
+#  Linux: mongoimport --db AirlineProfile --collection airlineProfileRS --file ~/wars/EK-airlineProfileRS.json --jsonArray
+
+db.airlineProfileRS.remove({})

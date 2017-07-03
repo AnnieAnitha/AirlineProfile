@@ -1,0 +1,5175 @@
+{
+	"_class": "com.verteil.schemas.ndc16_1.AirlineProfileRS",
+	"document": {
+		"_id": "ID1",
+		"metadata": {},
+		"name": "a",
+		"referenceVersion": "a",
+		"refs": []
+	},
+	"warnings": {
+		"warning": [{
+				"type": "0",
+				"shortText": "a",
+				"code": "0",
+				"docURL": "http://www.altova.com/",
+				"status": "a",
+				"tag": "String",
+				"recordID": "a",
+				"owner": "a",
+				"value": "String",
+				"language": "en-us"
+			}, {
+				"type": "0",
+				"shortText": "a",
+				"code": "0",
+				"docURL": "http://www.altova.com/",
+				"status": "a",
+				"tag": "String",
+				"recordID": "a",
+				"owner": "a",
+				"value": "String",
+				"language": "en-us"
+			}
+		]
+	},
+	"success": {},
+	"profiles": {
+		"profile": [{
+				"recordCount": 1,
+				"profileOwner": {
+					"value": "BA"
+				},
+				"sourceFiles": {
+					"sourceFile": [{
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "COK",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "U"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "I"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "I"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "COK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "P"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "COK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "COK",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "DXB",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "COK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "COK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "DXB",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "U"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "I"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "I"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "P"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "BLR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "BLR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "BLR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "DXB",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "TRV",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "TRV",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "TRV",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "TRV",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "DXB",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "TRV",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "TRV",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "DXB",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "COK",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "JFK",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "COK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "JFK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "COK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "JFK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "BLR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "JFK",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "JFK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BLR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "JFK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "BOM",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BOM",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BOM",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "BOM",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "JFK",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BOM",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "JFK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "BOM",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "JFK",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}, {
+							"mediaLink": "http://www.altova.com/",
+							"dataItems": {
+								"posGeoSpecification": [{
+										"geoSpecCode": [{
+												"value": "LHR",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "SOUTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "WEST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}, {
+										"geoSpecCode": [{
+												"value": "AMS",
+												"geoSpecCodeType": "C"
+											}
+										],
+										"coordinates": {
+											"coordinateRadius": {
+												"value": "0",
+												"uom": "text"
+											},
+											"latitude": {
+												"value": "String",
+												"sign": "NORTH",
+												"minute": "a",
+												"second": "a"
+											},
+											"longitude": {
+												"value": "String",
+												"sign": "EAST",
+												"minute": "a",
+												"second": "a"
+											},
+											"altitude": {
+												"value": "String",
+												"unit": "a",
+												"context": "a"
+											},
+											"nac": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										}
+									}
+								],
+								"posNonGeoSpecification": [{
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "A"
+											}
+										]
+									}, {
+										"travelAgencyInd": true,
+										"aggregatorID": {
+											"value": "a",
+											"owner": "a",
+											"refs": [{
+													"_id": "ID1",
+													"metadata": {},
+													"name": "a",
+													"referenceVersion": "a",
+													"refs": [],
+													"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+												}
+											]
+										},
+										"pointOfSaleCode": [{
+												"value": "a",
+												"pointOfSaleType": "X"
+											}, {
+												"value": "a",
+												"pointOfSaleType": "T"
+											}
+										]
+									}
+								],
+								"offerGeoSpecification": [{
+										"directionalIndicator": "1",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "AMS",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "A"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}, {
+										"directionalIndicator": "3",
+										"offerOriginPoint": {
+											"geoSpecCode": [{
+													"value": "LHR",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "SOUTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"offerDestinationPoint": {
+											"geoSpecCode": [{
+													"value": "AMS",
+													"geoSpecCodeType": "C"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "EAST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										},
+										"travelWithin": {
+											"geoSpecCode": [{
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}, {
+													"value": "a",
+													"geoSpecCodeType": "Z"
+												}
+											],
+											"coordinates": {
+												"coordinateRadius": {
+													"value": "0",
+													"uom": "text"
+												},
+												"latitude": {
+													"value": "String",
+													"sign": "NORTH",
+													"minute": "a",
+													"second": "a"
+												},
+												"longitude": {
+													"value": "String",
+													"sign": "WEST",
+													"minute": "a",
+													"second": "a"
+												},
+												"altitude": {
+													"value": "String",
+													"unit": "a",
+													"context": "a"
+												},
+												"nac": "a",
+												"refs": [{
+														"_id": "ID1",
+														"metadata": {},
+														"name": "a",
+														"referenceVersion": "a",
+														"refs": [],
+														"_class": "com.verteil.schemas.ndc16_1.MsgDocumentType"
+													}
+												]
+											}
+										}
+									}
+								],
+								"offeredService": [{
+										"value": "1",
+										"permitted": "text"
+									}
+								],
+								"actionType": "text",
+								"sequenceNumber": {
+									"$numberLong": "0"
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"errors": {
+		"error": [{
+				"type": "0",
+				"nodeList": "String",
+				"shortText": "a",
+				"code": "0",
+				"docURL": "http://www.altova.com/",
+				"status": "a",
+				"tag": "String",
+				"recordID": "a",
+				"owner": "a",
+				"value": "String",
+				"language": "en-us"
+			}, {
+				"type": "0",
+				"nodeList": "String",
+				"shortText": "a",
+				"code": "0",
+				"docURL": "http://www.altova.com/",
+				"status": "a",
+				"tag": "String",
+				"recordID": "a",
+				"owner": "a",
+				"value": "String",
+				"language": "en-us"
+			}
+		]
+	},
+	"echoToken": "",
+	"timeStamp": {
+		"_class": "com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl",
+		"year": 2001,
+		"month": 12,
+		"day": 31,
+		"timezone": -2147483648,
+		"hour": 12,
+		"minute": 0,
+		"second": 0
+	},
+	"target": "Production",
+	"version": "",
+	"transactionIdentifier": "",
+	"sequenceNmbr": "0",
+	"transactionStatusCode": "Start",
+	"retransmissionIndicator": true,
+	"correlationID": "",
+	"asynchronousAllowedInd": true,
+	"primaryLangID": "EN",
+	"altLangID": "EN"
+}
