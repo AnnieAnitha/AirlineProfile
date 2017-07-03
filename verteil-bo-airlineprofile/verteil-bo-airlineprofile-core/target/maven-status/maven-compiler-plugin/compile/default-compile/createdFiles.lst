@@ -1,0 +1,8 @@
+com/verteil/airlineprofile/core/biz/impl/BlockedAgentsServiceImpl.class
+com/verteil/airlineprofile/core/dao/impl/AirlineProfileNoSqlDaoImpl.class
+com/verteil/airlineprofile/core/dao/impl/ResultString.class
+com/verteil/airlineprofile/core/biz/impl/AirlineProfileServiceImpl.class
+com/verteil/airlineprofile/core/biz/impl/AirlineProfileNoSqlServiceImpl.class
+com/verteil/airlineprofile/core/dao/impl/AirlineProfileDaoImpl.class
+com/verteil/airlineprofile/core/biz/impl/AirlineProfileNotifServiceImpl.class
+com/verteil/airlineprofile/core/dao/impl/BlockedAgentsDaoImpl.class
