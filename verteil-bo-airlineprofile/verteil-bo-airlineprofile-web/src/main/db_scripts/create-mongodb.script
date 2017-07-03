@@ -1,9 +1,0 @@
-use AirlineProfile
-db.createUser( {
-	user: "vdcuser",
-	pwd: "123",
-	roles: [ { 
-		role: "readWrite", 
-		db: "AirlineProfile" } 
-	]}
-)
