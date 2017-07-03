@@ -39,6 +39,7 @@ public class AirlineProfileNoSqlRestService extends AbstractRestService {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(AirlineProfileNoSqlRestService.class);
 
+	
 	private AirlineProfileNoSqlService airProfileService;
 	private BlockedAgentsService blockedAgentsService;
 
